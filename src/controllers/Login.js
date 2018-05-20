@@ -46,7 +46,7 @@ class Login extends Component {
                 console.log('res: ', res.data);
             },
             err => {
-                console.log('error: ', err.message);
+                console.log('error: ', err.response);
             });
         }else{
             console.log('missing params');
